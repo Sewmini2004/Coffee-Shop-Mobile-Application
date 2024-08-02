@@ -43,7 +43,7 @@ const OrderHistoryScreen = ({navigation}: any) => {
 
   return (
     <View style={styles.ScreenContainer}>
-      <StatusBar backgroundColor={COLORS.primaryBlackHex} />
+      <StatusBar backgroundColor={COLORS.primaryDarkBrownHex} />
 
 
       <ScrollView
@@ -80,7 +80,7 @@ const OrderHistoryScreen = ({navigation}: any) => {
 const styles = StyleSheet.create({
   ScreenContainer: {
     flex: 1,
-    backgroundColor: COLORS.primaryBlackHex,
+    backgroundColor: COLORS.primaryDarkBrownHex,
   },
   LottieAnimation: {
     height: 250,

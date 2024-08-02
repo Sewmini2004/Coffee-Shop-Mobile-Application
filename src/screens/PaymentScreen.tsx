@@ -117,7 +117,7 @@ const PaymentScreen = ({navigation, route}: any) => {
 const styles = StyleSheet.create({
   ScreenContainer: {
     flex: 1,
-    backgroundColor: COLORS.primaryBlackHex,
+    backgroundColor: COLORS.primaryDarkBrownHex,
   },
   LottieAnimation: {
     flex: 1,

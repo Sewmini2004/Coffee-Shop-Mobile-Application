@@ -121,7 +121,7 @@ const DetailsScreen = ({navigation, route}: any) => {
                   {
                     borderColor:
                       data.size == price.size
-                        ? COLORS.primaryOrangeHex
+                        ? COLORS.primaryBrownHex
                         : COLORS.primaryDarkGreyHex,
                   },
                 ]}>
@@ -135,7 +135,7 @@ const DetailsScreen = ({navigation, route}: any) => {
                           : FONTSIZE.size_16,
                       color:
                         data.size == price.size
-                          ? COLORS.primaryOrangeHex
+                          ? COLORS.primaryBrownHex
                           : COLORS.secondaryLightGreyHex,
                     },
                   ]}>

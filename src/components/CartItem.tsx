@@ -260,13 +260,13 @@ const styles = StyleSheet.create({
   SizeCurrency: {
     fontFamily: FONTFAMILY.poppins_semibold,
     fontSize: FONTSIZE.size_18,
-    color: COLORS.primaryOrangeHex,
+    color: COLORS.primaryBrownHex,
   },
   SizePrice: {
     color: COLORS.primaryWhiteHex,
   },
   CartItemIcon: {
-    backgroundColor: COLORS.primaryOrangeHex,
+    backgroundColor: COLORS.primaryBrownHex,
     padding: SPACING.space_12,
     borderRadius: BORDERRADIUS.radius_10,
   },
@@ -275,7 +275,7 @@ const styles = StyleSheet.create({
     width: 80,
     borderRadius: BORDERRADIUS.radius_10,
     borderWidth: 2,
-    borderColor: COLORS.primaryOrangeHex,
+    borderColor: COLORS.primaryBrownHex,
     alignItems: 'center',
     paddingVertical: SPACING.space_4,
   },

@@ -18,7 +18,6 @@ import {
   FONTSIZE,
   SPACING,
 } from '../theme/theme';
-import HeaderBar from '../components/HeaderBar';
 import CustomIcon from '../components/CustomIcon';
 import {FlatList} from 'react-native';
 import CoffeeCard from '../components/CoffeeCard';
@@ -123,16 +122,17 @@ const HomeScreen = ({navigation}: any) => {
 
   return (
     <View style={styles.ScreenContainer}>
-      <StatusBar backgroundColor={COLORS.primaryBlackHex} />
+      <StatusBar backgroundColor={COLORS.primaryBrownHex} />
       <ScrollView
         showsVerticalScrollIndicator={false}
         contentContainerStyle={styles.ScrollViewFlex}>
-        {/* App Header */}
-        <HeaderBar />
 
         <Text style={styles.ScreenTitle}>
-          Find the best{'\n'}coffee for you
+                 Fresh Coffee Experience ......
         </Text>
+         <Text style={styles.ScreenTitle2}>
+                  Our Coffee, Your Choice.
+         </Text>
 
         {/* Search Input */}
 
@@ -147,7 +147,7 @@ const HomeScreen = ({navigation}: any) => {
               size={FONTSIZE.size_18}
               color={
                 searchText.length > 0
-                  ? COLORS.primaryOrangeHex
+                  ? COLORS.primaryBrownHex
                   : COLORS.primaryLightGreyHex
               }
             />
@@ -205,7 +205,7 @@ const HomeScreen = ({navigation}: any) => {
                   style={[
                     styles.CategoryText,
                     categoryIndex.index == index
-                      ? {color: COLORS.primaryOrangeHex}
+                      ? {color: COLORS.primaryBrownHex}
                       : {},
                   ]}>
                   {data}
@@ -308,7 +308,7 @@ const HomeScreen = ({navigation}: any) => {
 const styles = StyleSheet.create({
   ScreenContainer: {
     flex: 1,
-    backgroundColor: COLORS.primaryBlackHex,
+    backgroundColor: COLORS.primaryDarkBrownHex,
   },
   ScrollViewFlex: {
     flexGrow: 1,
@@ -319,6 +319,12 @@ const styles = StyleSheet.create({
     color: COLORS.primaryWhiteHex,
     paddingLeft: SPACING.space_30,
   },
+   ScreenTitle2: {
+      fontSize: FONTSIZE.size_27,
+      fontFamily: FONTFAMILY.poppins_semibold,
+      color: COLORS.primaryWhiteHex,
+      paddingLeft: SPACING.space_30,
+    },
   InputContainerComponent: {
     flexDirection: 'row',
     margin: SPACING.space_30,
@@ -356,7 +362,7 @@ const styles = StyleSheet.create({
     height: SPACING.space_10,
     width: SPACING.space_10,
     borderRadius: BORDERRADIUS.radius_10,
-    backgroundColor: COLORS.primaryOrangeHex,
+    backgroundColor: COLORS.primaryBrownHex,
   },
   FlatListContainer: {
     gap: SPACING.space_20,

@@ -60,6 +60,8 @@ export const COLORS: Color = {
   primaryWhiteHex: '#FFFFFF',
   primaryBlackRGBA: 'rgba(12,15,20,0.5)',
   secondaryBlackRGBA: 'rgba(0,0,0,0.7)',
+  primaryBrownHex: '#8B4513',
+  primaryDarkBrownHex: '#3E311F',
 };
 
 interface FontFamily {

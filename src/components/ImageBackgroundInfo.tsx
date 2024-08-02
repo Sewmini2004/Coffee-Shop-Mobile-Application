@@ -109,7 +109,7 @@ const ImageBackgroundInfo: React.FC<ImageBackgroundInfoProps> = ({
                   <CustomIcon
                     name={type == 'Bean' ? 'bean' : 'beans'}
                     size={type == 'Bean' ? FONTSIZE.size_18 : FONTSIZE.size_24}
-                    color={COLORS.primaryOrangeHex}
+                    color={COLORS.primaryBrownHex}
                   />
                   <Text
                     style={[
@@ -128,7 +128,7 @@ const ImageBackgroundInfo: React.FC<ImageBackgroundInfoProps> = ({
                   <CustomIcon
                     name={type == 'Bean' ? 'location' : 'drop'}
                     size={FONTSIZE.size_16}
-                    color={COLORS.primaryOrangeHex}
+                    color={COLORS.primaryBrownHex}
                   />
                   <Text style={styles.PropertyTextLast}>{ingredients}</Text>
                 </View>
@@ -138,7 +138,7 @@ const ImageBackgroundInfo: React.FC<ImageBackgroundInfoProps> = ({
               <View style={styles.RatingContainer}>
                 <CustomIcon
                   name={'star'}
-                  color={COLORS.primaryOrangeHex}
+                  color={COLORS.primaryBrownHex}
                   size={FONTSIZE.size_20}
                 />
                 <Text style={styles.RatingText}>{average_rating}</Text>

@@ -59,7 +59,7 @@ const CoffeeCard: React.FC<CoffeeCardProps> = ({
         <View style={styles.CardRatingContainer}>
           <CustomIcon
             name={'star'}
-            color={COLORS.primaryOrangeHex}
+            color={COLORS.primaryBrownHex}
             size={FONTSIZE.size_16}
           />
           <Text style={styles.CardRatingText}>{average_rating}</Text>
@@ -87,7 +87,7 @@ const CoffeeCard: React.FC<CoffeeCardProps> = ({
           <BGIcon
             color={COLORS.primaryWhiteHex}
             name={'add'}
-            BGColor={COLORS.primaryOrangeHex}
+            BGColor={COLORS.primaryBrownHex}
             size={FONTSIZE.size_10}
           />
         </TouchableOpacity>
@@ -145,7 +145,7 @@ const styles = StyleSheet.create({
   },
   CardPriceCurrency: {
     fontFamily: FONTFAMILY.poppins_semibold,
-    color: COLORS.primaryOrangeHex,
+    color: COLORS.primaryBrownHex,
     fontSize: FONTSIZE.size_18,
   },
   CardPrice: {

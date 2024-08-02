@@ -30,7 +30,7 @@ const PaymentMethod: React.FC<PaymentMethodProps> = ({
         {
           borderColor:
             paymentMode == name
-              ? COLORS.primaryOrangeHex
+              ? COLORS.primaryBrownHex
               : COLORS.primaryGreyHex,
         },
       ]}>
@@ -43,7 +43,7 @@ const PaymentMethod: React.FC<PaymentMethodProps> = ({
           <View style={styles.WalletRow}>
             <CustomIcon
               name={'wallet'}
-              color={COLORS.primaryOrangeHex}
+              color={COLORS.primaryBrownHex}
               size={FONTSIZE.size_30}
             />
             <Text style={styles.PaymentTitle}>{name}</Text>

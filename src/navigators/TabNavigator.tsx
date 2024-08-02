@@ -36,7 +36,7 @@ const TabNavigator = () => {
               name="home"
               size={25}
               color={
-                focused ? COLORS.primaryOrangeHex : COLORS.primaryLightGreyHex
+                focused ? COLORS.primaryBrownHex : COLORS.primaryLightGreyHex
               }
             />
           ),
@@ -50,7 +50,7 @@ const TabNavigator = () => {
               name="cart"
               size={25}
               color={
-                focused ? COLORS.primaryOrangeHex : COLORS.primaryLightGreyHex
+                focused ? COLORS.primaryBrownHex : COLORS.primaryLightGreyHex
               }
             />
           ),
@@ -64,7 +64,7 @@ const TabNavigator = () => {
               name="like"
               size={25}
               color={
-                focused ? COLORS.primaryOrangeHex : COLORS.primaryLightGreyHex
+                focused ? COLORS.primaryBrownHex : COLORS.primaryLightGreyHex
               }
             />
           ),
@@ -78,7 +78,7 @@ const TabNavigator = () => {
               name="bell"
               size={25}
               color={
-                focused ? COLORS.primaryOrangeHex : COLORS.primaryLightGreyHex
+                focused ? COLORS.primaryBrownHex : COLORS.primaryLightGreyHex
               }
             />
           ),

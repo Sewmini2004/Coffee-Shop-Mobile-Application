@@ -61,13 +61,13 @@ const styles = StyleSheet.create({
   PriceText: {
     fontFamily: FONTFAMILY.poppins_semibold,
     fontSize: FONTSIZE.size_24,
-    color: COLORS.primaryOrangeHex,
+    color: COLORS.primaryBrownHex,
   },
   Price: {
     color: COLORS.primaryWhiteHex,
   },
   PayButton: {
-    backgroundColor: COLORS.primaryOrangeHex,
+    backgroundColor: COLORS.primaryBrownHex,
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
